@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.navWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerLinks {
+    padding: 10px;
+    height: 40px;
+}
+
+.heroSection {
+    height: 500px;
+}
+
+.stuff {
+    height: 500px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* styles */
+
+body {
+    color: black;
+}
+.navWrapper {
+    background-color: aqua;   
+    color: white;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerLinks a:hover {
+    text-decoration: none;
+
+}
+
+.stuff {
+    background-color: orange;
+}
+
+.footer {
+
+    background-color: aqua;
+}
