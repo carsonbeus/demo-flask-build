@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>Welcome to my flask app</h1>"
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.debug = True
